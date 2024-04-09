@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+  }
+  .fix{
+    clear: both;
+    overflow: hidden;
+  }
+  header{
+    overflow: hidden;
+    height: 100vh;
+  }
+  .vid-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .nav-area{
+    background: rgba(0,0,0,0.7);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+  }
+  .logo{
+    margin: 0 50px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .logo span{
+    color: #f5bb00;
+  }
+  .menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+  }
+  .menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    
+  
+  }
+  .menu-area li.active a{
+    color: #f5bb00;
+  }
+  .menu-area li a:hover {
+    color: #f5bb00;
+  }
+  .banner-Text{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 10%;
+  }
+  .banner-Text h2{
+    color: #fff;
+    font-size: 80px;
+    margin: 0;
+    margin-right: 130px;
+  }
+  .banner-Text h2 span{
+    color: #f5bb00;
+  }
+  .banner-Text p{
+    color: #fff;
+    font-size: 18px;
+    margin: 15px;
+    font-weight: bold;
+    margin-right: 200px;
+    letter-spacing: 2px;
+  }
+  
+
+  /**FIRST IMG**/
+
+  .headings10{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+  
+  
+  }
+  
+  
+  #explain{
+   
+    
+    flex-direction: column;
+    width: 600px;
+    padding: 40px;
+    
+    margin-left: 70px;
+    text-align: left;
+    align-items: center;
+    margin: auto;
+  
+  
+  }
+  
+  
+   
+  
+  #image{
+    display: flexbox;
+    
+    
+  }
+  
+  
+  
+  #image img{
+  
+    float: left;
+    margin-right: auto;
+    margin-left: 70px;
+    width: 400px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+   
+   
+  
+  }
+  
+  
+  #explain{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 900px;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: left;
+  
+  }
+  
+  #explain h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  
+  
+  }
+
+   /**second IMG**/
+
+   .headings11{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+  
+  
+  }
+  
+  
+  #explain01{
+   
+    
+    flex-direction: column;
+    width: 600px;
+    padding: 40px;
+    
+    margin-left: 70px;
+    text-align: left;
+    align-items: center;
+    margin: auto;
+  
+  
+  }
+  
+  
+   
+  
+  #image01{
+    display: flexbox;
+    
+    
+  }
+  
+  
+  
+  #image01 img{
+  
+    float: left;
+    margin-right: auto;
+    margin-left: 70px;
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+   
+   
+  
+  }
+  
+  
+  #explain01{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 900px;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: left;
+  
+  }
+  
+  #explain01 h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  
+  
+  }
+
+  /**Third IMG**/
+
+  .headings12{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+    padding-right: 300px;
+  
+  }
+  
+  #image02{
+    display: flexbox;
+    
+    
+  }
+  
+  
+  
+  #image02 img{
+  
+    float: right;
+    margin-right: auto;
+    margin-left: 70px;
+    width: 400px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-bottom: 300px;
+    padding: 20px;
+   
+   
+  
+  }
+  #explain02{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 860px;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: right;
+  
+  }
+  
+  #explain02 h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  /**birds img**/
+
+  .pic01 {
+    padding: 10px;
+    margin-top: 170px;
+    margin-bottom: 20px;
+  }
+
+  /**head**/
+
+  .headings13{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    padding-right: 200px;
+
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+ 
+    
+  }
+  
+  
+  
+  .g-item img {
+    width: 400px;
+    height: 200px;
+    border-radius: 2px; 
+    transition: 400ms;
+  }
+  .g-item:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+  }
+
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+  }
+
+  /** Footer **/
+
+.down {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(110, 46, 25);
+  color: rgb(225, 121, 121);
+  margin-top: 550px;
+ 
+ 
+}
+
+.down p{
+  margin-right: 0px;
+  font-size: 20px;
+  color: #e8e1e1;
+}
+
+.down p span{
+  color: #f5bb00;
+}
+
+.down a:active{
+  color: aqua;
+}
+
+.down a:hover{
+  color: #e9bd1e;
+}
+.down h3 span{
+  color: #9f977c;
+}
+
+  
+  
